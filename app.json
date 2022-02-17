@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "movieList",
+    "slug": "movieList",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "movieList"
+}
