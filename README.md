@@ -14,7 +14,7 @@ Desenvolver um app Mobile utilizando React Native com os seguintes requisitos:
 
 ## App Desenvolvido
 
-![Home](https://github.com/RogerRoth/Movie-List/images/Home-Page) ![Movie](https://github.com/RogerRoth/Movie-List/images/Movie-Page)
+![Home](https://github.com/RogerRoth/Movie-List/blob/main/images/Home-Page.png) ![Movie](https://github.com/RogerRoth/Movie-List/blob/main/images/Movie-Page.png)
 
 Foi utilizado:
 - API do TMDB <https://developers.themoviedb.org/3/getting-started/introduction>
