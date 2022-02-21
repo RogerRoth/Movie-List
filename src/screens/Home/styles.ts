@@ -1,0 +1,46 @@
+import styled, {css} from "styled-components/native";
+import { LinearGradient } from "expo-linear-gradient";
+import { getStatusBarHeight } from "react-native-iphone-x-helper";
+
+export const Container = styled.View`
+    flex: 1;
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND};
+`;
+
+export const Header = styled(LinearGradient).attrs(({ theme }) => ({
+    colors: theme.COLORS.GRADIENT
+}))`
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: ${getStatusBarHeight() + 33}px 24px 58px;
+`;
+
+export const AppName = styled.Text`
+    font-size: 28px;
+    margin-left: 8px;
+
+    ${({ theme }) => css`
+        font-family: ${theme.FONTS.LOGO};
+        color: ${theme.COLORS.TITLE}
+    `};
+`;
+
+export const TitleText = styled.Text`
+    font-size: 20px;
+
+    ${({ theme }) => css`
+        font-family: ${theme.FONTS.TITLE};
+        color: ${theme.COLORS.TITLE}
+    `};
+`;
+
+export const MoviesSelectByHeader = styled.View`
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 24px 0;
+    padding-bottom: 22px;
+    border-bottom-width: 1px;
+    border-bottom-color: ${({ theme }) => theme.COLORS.SHAPE};
+`;
